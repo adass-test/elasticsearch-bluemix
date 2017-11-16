@@ -1,0 +1,8 @@
+applications:
+- name: esTest
+  memory: 512M
+  host: esTest-ys1
+  instances:3
+  domain: mel01.mybluemix.net
+  disk_quota:1G
+  path: .
